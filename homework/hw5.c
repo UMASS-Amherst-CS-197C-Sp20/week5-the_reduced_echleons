@@ -1,7 +1,14 @@
 //Questions 1-3 are not in this file. See readme.txt
-
 //Question 3 part 2. 
 //Set 'globalInt' to be equal to 37
+int globalInt = 37;
+
+char intToChar(int aInt)
+{
+  aInt = aInt + 5;
+  char aChar = aInt;
+  return aChar;
+}
 
 int charToInt(char input){
 	int output = intToChar(input);
@@ -10,7 +17,6 @@ int charToInt(char input){
 
 //Question 4
 //define the 'intToChar' function. This function should add 5 to the int given, cast it to a char, and then return this char.
-
 //Question 5 is not in this file. See readme.txt
 
 //DO NOT ALTER, THIS IS FOR THE AUTOGRADER

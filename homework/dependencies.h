@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 extern int globalInt;
-typedef struct
+struct dog
 {
   int age;
-  char *name;
-}dog;
+  char * name;
+};
 
 char intToChar(int aInt);

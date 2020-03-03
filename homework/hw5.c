@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include "dependencies.h"
 //Questions 1-3 are not in this file. See readme.txt
 //Question 3 part 2. 
 //Set 'globalInt' to be equal to 37
